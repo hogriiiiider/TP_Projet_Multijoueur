@@ -1,0 +1,3 @@
+﻿  Client.cpp
+C:\Users\ldongodongmo\source\repos\Creation_server\Client\Client.cpp(49,42): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+  Client.vcxproj -> C:\Users\ldongodongmo\source\repos\Creation_server\x64\Debug\Client.exe
