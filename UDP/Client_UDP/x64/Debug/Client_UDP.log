@@ -1,0 +1,3 @@
+﻿  Client_UDP.cpp
+C:\Users\ldongodongmo\source\repos\UDP\Client_UDP\Client_UDP.cpp(53,48): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+  Client_UDP.vcxproj -> C:\Users\ldongodongmo\source\repos\UDP\x64\Debug\Client_UDP.exe

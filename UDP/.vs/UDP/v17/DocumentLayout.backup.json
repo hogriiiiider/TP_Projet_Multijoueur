@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ldongodongmo\\Documents\\GitHub\\TP_Projet_Multijoueur\\UDP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B66051A-99A5-4FF9-A470-C6E386D6B1E2}|UDP\\UDP.vcxproj|C:\\Users\\ldongodongmo\\Documents\\GitHub\\TP_Projet_Multijoueur\\UDP\\UDP\\UDP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B66051A-99A5-4FF9-A470-C6E386D6B1E2}|UDP\\UDP.vcxproj|solutionrelative:UDP\\UDP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{769685FB-17B9-4AC4-9720-198C9CDA350E}|Client_UDP\\Client_UDP.vcxproj|C:\\Users\\ldongodongmo\\Documents\\GitHub\\TP_Projet_Multijoueur\\UDP\\Client_UDP\\Client_UDP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{769685FB-17B9-4AC4-9720-198C9CDA350E}|Client_UDP\\Client_UDP.vcxproj|solutionrelative:Client_UDP\\Client_UDP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Client_UDP.cpp",
+              "DocumentMoniker": "C:\\Users\\ldongodongmo\\Documents\\GitHub\\TP_Projet_Multijoueur\\UDP\\Client_UDP\\Client_UDP.cpp",
+              "RelativeDocumentMoniker": "Client_UDP\\Client_UDP.cpp",
+              "ToolTip": "C:\\Users\\ldongodongmo\\Documents\\GitHub\\TP_Projet_Multijoueur\\UDP\\Client_UDP\\Client_UDP.cpp",
+              "RelativeToolTip": "Client_UDP\\Client_UDP.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-14T14:02:27.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UDP.cpp",
+              "DocumentMoniker": "C:\\Users\\ldongodongmo\\Documents\\GitHub\\TP_Projet_Multijoueur\\UDP\\UDP\\UDP.cpp",
+              "RelativeDocumentMoniker": "UDP\\UDP.cpp",
+              "ToolTip": "C:\\Users\\ldongodongmo\\Documents\\GitHub\\TP_Projet_Multijoueur\\UDP\\UDP\\UDP.cpp",
+              "RelativeToolTip": "UDP\\UDP.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-14T13:55:30.106Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -21,7 +21,7 @@ int main()
     }
 
     sockaddr_in server;
-    if (inet_pton(AF_INET, "10.1.0.29", &server.sin_addr) <= 0)
+    if (inet_pton(AF_INET, "10.1.141.23", &server.sin_addr) <= 0)
     {
         return false;
     }
@@ -46,7 +46,7 @@ int main()
     // Send an initial buffer
     int iResult;
     char buffer[1024] = "Antoine ce gros raciste mais lequel ? ";
-    iResult = send(client, buffer, strlen(buffer), 1);
+    iResult = send(client, buffer, strlen(buffer), 0);
     if (iResult == SOCKET_ERROR) {
         printf("send failed: %d\n", WSAGetLastError());
         closesocket(client);
@@ -55,27 +55,6 @@ int main()
     }
 
     printf("Bytes Sent: %ld\n", iResult);
-
-    // shutdown the connection for sending since no more data will be sent
-    // the client can still use the socket_client for receiving data
-    iResult = shutdown(client, SD_SEND);
-    if (iResult == SOCKET_ERROR) {
-        printf("shutdown failed: %d\n", WSAGetLastError());
-        closesocket(client);
-        WSACleanup();
-        return 0;
-    }
-
-    // Receive data until the server closes the connection
-    do {
-        iResult = recv(client, buffer, (int)strlen(buffer), 1);
-        if (iResult > 0)
-            printf("Bytes received: %d\n", iResult);
-        else if (iResult == 0)
-            printf("Connection closed\n");
-        else
-            printf("recv failed: %d\n", WSAGetLastError());
-    } while (iResult > 0);
     closesocket(client);
     WSACleanup();
 }

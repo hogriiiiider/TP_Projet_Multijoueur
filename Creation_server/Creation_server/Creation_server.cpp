@@ -53,19 +53,24 @@ int main()
 	if (newClient != INVALID_SOCKET)
 	{
 		char buff[INET6_ADDRSTRLEN] = { 0 };
-		std::string clientAddress = inet_ntop(addr.sin_family, (void*)&(addr.sin_addr), buff, INET6_ADDRSTRLEN);
+		std::string clientAddress = inet_ntop(from.sin_family, (void*)&(from.sin_addr), buff, INET6_ADDRSTRLEN);
 		std::cout << "Connexion de " << clientAddress.c_str() << ":" << addr.sin_port << std::endl;
 
 		// Receive data until the server closes the connection
 		do {
-			iResult = recv(newClient, buffer, (int)strlen(buffer), 1);
-			if (iResult > 0)
-				printf("Bytes received: %d\n", iResult);
-			else if (iResult == 0)
+			iResult = recv(newClient, buffer, sizeof(buffer) - 1, 0); // Recevoir jusqu'à la taille maximale
+			if (iResult > 0) {
+				buffer[iResult] = '\0'; // Null-terminate la chaîne reçue
+				printf("Message recu : %s\n", buffer);
+			}
+			else if (iResult == 0) {
 				printf("Connection closed\n");
-			else
+			}
+			else {
 				printf("recv failed: %d\n", WSAGetLastError());
+			}
 		} while (iResult > 0);
+
 	}
 
 

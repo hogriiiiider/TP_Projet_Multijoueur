@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ldongodongmo\\Documents\\GitHub\\TP_Projet_Multijoueur\\Thread\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE700471-CB07-43B7-B86C-208F401CC89B}|Create_Thread\\Create_Thread.vcxproj|C:\\Users\\ldongodongmo\\Documents\\GitHub\\TP_Projet_Multijoueur\\Thread\\Create_Thread\\Create_Thread.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AE700471-CB07-43B7-B86C-208F401CC89B}|Create_Thread\\Create_Thread.vcxproj|solutionrelative:Create_Thread\\Create_Thread.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create_Thread.cpp",
+              "DocumentMoniker": "C:\\Users\\ldongodongmo\\Documents\\GitHub\\TP_Projet_Multijoueur\\Thread\\Create_Thread\\Create_Thread.cpp",
+              "RelativeDocumentMoniker": "Create_Thread\\Create_Thread.cpp",
+              "ToolTip": "C:\\Users\\ldongodongmo\\Documents\\GitHub\\TP_Projet_Multijoueur\\Thread\\Create_Thread\\Create_Thread.cpp",
+              "RelativeToolTip": "Create_Thread\\Create_Thread.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-14T12:28:30.44Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
